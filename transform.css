@@ -195,7 +195,7 @@
     overflow: hidden;
 }
 
-.container4> .card{
+.container4>.card{
 height: 300px;
 width: 300px;
 background-color: grey;
@@ -205,19 +205,18 @@ align-content: center;
 text-align: center;
 color: white;
 animation-name: slider;
-animation-direction: 5s;
-animation-timing-function: linear;
+animation-duration: 5s;
 animation-iteration-count: infinite;
-
-
+animation-timing-function: linear;
+animation-direction: reverse;
 }
 
-@keyframes slider{
+@keyframes slider {
     from{
-        translate: 0;
+        translate: -50vw;
     }
 
     to{
-        translate: calc(50vw - 230px);
+        translate: 50vw;
     }
 }
