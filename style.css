@@ -41,14 +41,15 @@ nav {
     background-color:white ;
     position: absolute;
     /* width: 300px; */
-    display: flex;
+    /* display: flex; */
+    display: none;
     flex-direction: column;
     text-wrap: nowrap;
     gap: 10px;
     box-shadow: 0.1px 0.1px 1px 0.1px;
     border-radius: 5px;
     padding: 7px;
-    top: 20px;
+    top: 40px;
     transition: all .5s;
 
 }
@@ -63,18 +64,12 @@ nav {
     color: #ED1C24;
 }
 
-.dropdown li{
-    n
+.solution:hover .dropdown1{
+    display: flex;
 }
-
-
-
 
 .nav-link {
     list-style-type: none;
-    .dropdown1{
-        opacity: 1;
-    }
 }
 
 .nav-link>a {
