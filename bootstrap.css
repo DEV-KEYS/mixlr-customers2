@@ -2,7 +2,133 @@
     /* margin-top: 500px !important; */
 }
 
-.box{
+/* .box{
     height: 200px;
     width: 200px;
+    
+} */
+
+
+
+nav {
+    /* border: 1px solid; */
+    width: 96%;
+    margin: auto;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.nav-ul {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 42%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+
+}
+
+.dropdown{
+    list-style-type: none;
+    background-color:white ;
+    position: absolute;
+    /* width: 300px; */
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    text-wrap: nowrap;
+    gap: 10px;
+    box-shadow: 0.1px 0.1px 1px 0.1px;
+    border-radius: 5px;
+    padding: 7px;
+    top: 40px;
+    transition: all .5s;
+
+}
+
+.dropdown a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.dropdown a:hover{
+    color: #ED1C24;
+}
+
+.solution:hover .dropdown1{
+    display: flex;
+}
+
+.nav-link {
+    list-style-type: none;
+}
+
+.nav-link>a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link>a:hover {
+    color: #ED1C24;
+}
+
+.getstarted-btn {
+    margin-left: 20px;
+}
+
+.getstarted-btn>button {
+    padding: 7px;
+    font-weight: 600;
+    color: white;
+    background-color: #0D6EFD;
+    border: 0;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.bi-plus-circle {
+    font-size: 23px;
+}
+
+.getstarted-btn>button:hover {
+    opacity: 0.8;
+}
+
+.menu {
+    display: none;
+}
+
+.bi-list {
+    font-size: 2rem;
+}
+
+
+.hero{
+    height: 600px;
+    width: 100%;
+background-image: url(media/imgi_137_dark-sunset-on-the-beach-q9k3kzhsb460gn38.png);
+
+background-repeat: no-repeat;
+background-size: 100% 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+.inputcontainer{
+    padding: 0;
+    padding-left: 70px;
+}
+
+.form-control{
+    font: size 1.25rem; ;
+    font-weight: 600;
 }
